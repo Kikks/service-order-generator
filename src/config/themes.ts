@@ -2,6 +2,22 @@ import { Theme } from "../types";
 
 export const THEMES: Theme[] = [
 	{
+		id: "generic",
+		name: "Generic",
+		logoType: "light",
+		backgroundImage: "/assets/images/generic.png",
+		backgroundColour: "#ffffff",
+		primaryForeground: "#2B5F79",
+		primaryBackground: "#ffffff",
+		secondaryForeground: "#ffffff",
+		secondaryBackground: "#F0CD3F",
+		titleColor: "#ffffff",
+		paddingTop: 75,
+		paddingLeft: 0,
+		paddingRight: 0,
+		paddingBottom: 0
+	},
+	{
 		id: "witnesses",
 		name: "Witnesses",
 		logoType: "light",
